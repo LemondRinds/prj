@@ -1,0 +1,22 @@
+animation{
+  name = "stopped",
+  src_image = "main_heroes/player.png",
+  directions = {
+    { x = 54, y = 256, frame_width = 14, frame_height = 30, origin_x = 7, origin_y = 26 },
+    { x = 54, y = 189, frame_width = 14, frame_height = 30, origin_x = 7, origin_y = 26 },
+    { x = 54, y = 223, frame_width = 15, frame_height = 32, origin_x = 7, origin_y = 26 },
+    { x = 54, y = 156, frame_width = 14, frame_height = 30, origin_x = 7, origin_y = 26 },
+  },
+}
+animation{
+  name = "walking",
+  src_image = "main_heroes/player.png",
+  frame_delay = 250,
+  frame_to_loop_on = 0,
+  directions = {
+    { x = 13, y = 256, frame_width = 20, frame_height = 32, origin_x = 8, origin_y = 26, num_frames = 4 },
+    { x = 11, y = 189, frame_width = 21, frame_height = 32, origin_x = 8, origin_y = 26, num_frames = 4 },
+    { x = 13, y = 223, frame_width = 20, frame_height = 32, origin_x = 8, origin_y = 26, num_frames = 4 },
+    { x = 11, y = 156, frame_width = 21, frame_height = 32, origin_x = 8, origin_y = 26, num_frames = 4 },
+  },
+}

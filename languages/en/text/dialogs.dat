@@ -1,0 +1,70 @@
+dialog{
+  id = "Insist",
+  next = "Ok",
+  text = [[
+Wait, you're asking me? Why
+don't I just tell you what
+to do, like in a game (lol).
+]]
+}
+
+dialog{
+  id = "Intro",
+  next = "Ok",
+  next2 = "Insist",
+  question = "1",
+  text = [[
+This here is a question!
+Ok
+What?
+]]
+}
+
+dialog{
+  id = "Ok",
+  text = [[
+Well bully for you! Get yer 
+@ss inside that house with 
+the path goin up to it!
+]]
+}
+
+dialog{
+  id = "wise_man",
+  next = "wise_man.thanks",
+  next2 = "wise_man.insisting",
+  question = "1",
+  skip = "current",
+  text = [[
+I can feel courage in
+you.
+Do you think you can
+protect the Princess?
+Definitely!
+No way
+]]
+}
+
+dialog{
+  id = "wise_man.insisting",
+  next = "wise_man.thanks",
+  next2 = "wise_man.insisting",
+  question = "1",
+  text = [[
+I beg you.
+You are the only one
+one able to protect
+our kingdom...
+Sure
+No way
+]]
+}
+
+dialog{
+  id = "wise_man.thanks",
+  text = [[
+I knew I could count on
+your immense bravery.
+]]
+}
+
